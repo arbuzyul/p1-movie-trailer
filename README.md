@@ -19,3 +19,6 @@
 * How should they feel: As if they're going on an adventure, excited, entertained, sometimes scared, happy, grateful  
 * Lots of adjectives: Courageous, brave, strong, entertaining, pride, honor, connected
 
+## Visual Design
+
+* Collage 
