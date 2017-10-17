@@ -3,7 +3,20 @@
 @import 'normalize';
 @import 'mediaelementplayer';
 
+
 body {
     background: red;
 }
 
+/* Lettering Styling */
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
+
+h1 {
+   font-family: 'Playfair Display', serif;
+    color: blue;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}

@@ -7,6 +7,8 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto");
+/* line 12, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 html {
   line-height: 1.15;
   /* 1 */
@@ -20,12 +22,14 @@ html {
 /**
  * Remove the margin in all browsers (opinionated).
  */
+/* line 25, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 body {
   margin: 0; }
 
 /**
  * Add the correct display in IE 9-.
  */
+/* line 33, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 article,
 aside,
 footer,
@@ -38,6 +42,7 @@ section {
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+/* line 47, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 h1 {
   font-size: 2em;
   margin: 0.67em 0; }
@@ -48,6 +53,7 @@ h1 {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
+/* line 60, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 figcaption,
 figure,
 main {
@@ -57,6 +63,7 @@ main {
 /**
  * Add the correct margin in IE 8.
  */
+/* line 70, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 figure {
   margin: 1em 40px; }
 
@@ -64,6 +71,7 @@ figure {
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+/* line 79, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -76,6 +84,7 @@ hr {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 90, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -88,6 +97,7 @@ pre {
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+/* line 103, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 a {
   background-color: transparent;
   /* 1 */
@@ -98,6 +108,7 @@ a {
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+/* line 113, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -109,6 +120,7 @@ abbr[title] {
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+/* line 123, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 b,
 strong {
   font-weight: inherit; }
@@ -116,6 +128,7 @@ strong {
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+/* line 132, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 b,
 strong {
   font-weight: bolder; }
@@ -124,6 +137,7 @@ strong {
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+/* line 142, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 code,
 kbd,
 samp {
@@ -135,12 +149,14 @@ samp {
 /**
  * Add the correct font style in Android 4.3-.
  */
+/* line 153, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 dfn {
   font-style: italic; }
 
 /**
  * Add the correct background and color in IE 9-.
  */
+/* line 161, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 mark {
   background-color: #ff0;
   color: #000; }
@@ -148,6 +164,7 @@ mark {
 /**
  * Add the correct font size in all browsers.
  */
+/* line 170, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 small {
   font-size: 80%; }
 
@@ -155,6 +172,7 @@ small {
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+/* line 179, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 sub,
 sup {
   font-size: 75%;
@@ -162,9 +180,11 @@ sup {
   position: relative;
   vertical-align: baseline; }
 
+/* line 187, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 sub {
   bottom: -0.25em; }
 
+/* line 191, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 sup {
   top: -0.5em; }
 
@@ -173,6 +193,7 @@ sup {
 /**
  * Add the correct display in IE 9-.
  */
+/* line 202, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 audio,
 video {
   display: inline-block; }
@@ -180,6 +201,7 @@ video {
 /**
  * Add the correct display in iOS 4-7.
  */
+/* line 211, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 audio:not([controls]) {
   display: none;
   height: 0; }
@@ -187,12 +209,14 @@ audio:not([controls]) {
 /**
  * Remove the border on images inside links in IE 10-.
  */
+/* line 220, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 img {
   border-style: none; }
 
 /**
  * Hide the overflow in IE.
  */
+/* line 228, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 svg:not(:root) {
   overflow: hidden; }
 
@@ -202,6 +226,7 @@ svg:not(:root) {
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+/* line 240, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 button,
 input,
 optgroup,
@@ -220,6 +245,7 @@ textarea {
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+/* line 256, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 button,
 input {
   /* 1 */
@@ -229,6 +255,7 @@ input {
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+/* line 266, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 button,
 select {
   /* 1 */
@@ -239,6 +266,7 @@ select {
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+/* line 277, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 button,
 html [type="button"],
 [type="reset"],
@@ -249,6 +277,7 @@ html [type="button"],
 /**
  * Remove the inner border and padding in Firefox.
  */
+/* line 288, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -259,6 +288,7 @@ button::-moz-focus-inner,
 /**
  * Restore the focus styles unset by the previous rule.
  */
+/* line 300, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -268,6 +298,7 @@ button:-moz-focusring,
 /**
  * Correct the padding in Firefox.
  */
+/* line 311, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 fieldset {
   padding: 0.35em 0.75em 0.625em; }
 
@@ -277,6 +308,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+/* line 322, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -295,6 +327,7 @@ legend {
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+/* line 336, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 progress {
   display: inline-block;
   /* 1 */
@@ -304,6 +337,7 @@ progress {
 /**
  * Remove the default vertical scrollbar in IE.
  */
+/* line 345, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 textarea {
   overflow: auto; }
 
@@ -311,6 +345,7 @@ textarea {
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+/* line 354, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -321,6 +356,7 @@ textarea {
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+/* line 364, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto; }
@@ -329,6 +365,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+/* line 374, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -338,6 +375,7 @@ textarea {
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+/* line 383, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
@@ -346,6 +384,7 @@ textarea {
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+/* line 393, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -358,6 +397,7 @@ textarea {
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
+/* line 406, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 details,
 menu {
   display: block; }
@@ -365,6 +405,7 @@ menu {
 /*
  * Add the correct display in all browsers.
  */
+/* line 415, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 summary {
   display: list-item; }
 
@@ -373,12 +414,14 @@ summary {
 /**
  * Add the correct display in IE 9-.
  */
+/* line 426, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 canvas {
   display: inline-block; }
 
 /**
  * Add the correct display in IE.
  */
+/* line 434, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 template {
   display: none; }
 
@@ -387,11 +430,13 @@ template {
 /**
  * Add the correct display in IE 10-.
  */
+/* line 445, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_normalize.scss */
 [hidden] {
   display: none; }
 
 /* Accessibility: hide screen reader texts (and prefer "top" for RTL languages).
 Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-how/ */
+/* line 3, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__offscreen {
   clip: rect(1px, 1px, 1px, 1px);
   /* IE8-IE11 - no support for clip-path */
@@ -401,6 +446,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   width: 1px;
   overflow: hidden; }
 
+/* line 12, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container {
   position: relative;
   background: #000;
@@ -410,31 +456,38 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   text-indent: 0;
   box-sizing: border-box; }
 
+/* line 22, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container * {
   box-sizing: border-box; }
 
 /* Hide native play button from iOS to favor plugin button */
+/* line 27, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container video::-webkit-media-controls-start-playback-button {
   display: none !important;
   -webkit-appearance: none; }
 
+/* line 32, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__fill-container,
 .mejs__fill-container .mejs__container {
   width: 100%;
   height: 100%; }
 
+/* line 38, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__fill-container {
   overflow: hidden;
   position: relative;
   margin: 0 auto;
   background: transparent; }
 
+/* line 45, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container:focus {
   outline: none; }
 
+/* line 49, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .me-plugin {
   position: absolute; }
 
+/* line 53, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__embed,
 .mejs__embed body {
   width: 100%;
@@ -444,9 +497,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   background: #000;
   overflow: hidden; }
 
+/* line 63, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__fullscreen {
   overflow: hidden !important; }
 
+/* line 67, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container-fullscreen {
   position: fixed;
   left: 0;
@@ -456,20 +511,24 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   overflow: hidden;
   z-index: 1000; }
 
+/* line 77, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container-fullscreen .mejs__mediaelement,
 .mejs__container-fullscreen video {
   width: 100% !important;
   height: 100% !important; }
 
+/* line 83, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__clear {
   clear: both; }
 
 /* Start: LAYERS */
+/* line 88, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__background {
   position: absolute;
   top: 0;
   left: 0; }
 
+/* line 94, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__mediaelement {
   position: absolute;
   top: 0;
@@ -477,6 +536,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   width: 100%;
   height: 100%; }
 
+/* line 102, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__poster {
   position: absolute;
   top: 0;
@@ -485,21 +545,26 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   background-position: 50% 50%;
   background-repeat: no-repeat; }
 
+/* line 111, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 :root .mejs__poster-img {
   display: none; }
 
+/* line 115, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__poster-img {
   border: 0;
   padding: 0; }
 
+/* line 120, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__overlay {
   position: absolute;
   top: 0;
   left: 0; }
 
+/* line 126, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__overlay-play {
   cursor: pointer; }
 
+/* line 130, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__overlay-button {
   position: absolute;
   top: 50%;
@@ -511,9 +576,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   background-position: 0 -39px;
   overflow: hidden; }
 
+/* line 142, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__overlay:hover > .mejs__overlay-button {
   background-position: -80px -39px; }
 
+/* line 146, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__overlay-loading {
   position: absolute;
   top: 50%;
@@ -522,6 +589,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 80px;
   margin: -40px 0 0 -40px; }
 
+/* line 155, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__overlay-loading-bg-img {
   display: block;
   width: 80px;
@@ -534,15 +602,19 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 @-moz-keyframes mejs-loading-spinner {
   100% {
     -moz-transform: rotate(360deg); } }
+
 @-webkit-keyframes mejs-loading-spinner {
   100% {
     -webkit-transform: rotate(360deg); } }
+
 @keyframes mejs-loading-spinner {
   100% {
     -webkit-transform: rotate(360deg);
     transform: rotate(360deg); } }
+
 /* End: LAYERS */
 /* Start: CONTROL BAR */
+/* line 187, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__controls {
   position: absolute;
   list-style-type: none;
@@ -553,10 +625,12 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 40px;
   width: 100%; }
 
+/* line 198, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__controls:not([style*="display: none"]) {
   background: rgba(255, 0, 0, 0.7);
   background: linear-gradient(transparent, rgba(0, 0, 0, 0.35)); }
 
+/* line 203, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__button,
 .mejs__time,
 .mejs__time-rail {
@@ -567,6 +641,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   font-size: 10px;
   line-height: 10px; }
 
+/* line 214, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__button > button {
   cursor: pointer;
   display: block;
@@ -583,9 +658,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   overflow: hidden; }
 
 /* :focus for accessibility */
+/* line 231, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__button > button:focus {
   outline: dotted 1px #999; }
 
+/* line 235, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__container-keyboard-inactive a,
 .mejs__container-keyboard-inactive a:focus,
 .mejs__container-keyboard-inactive button,
@@ -596,6 +673,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* End: CONTROL BAR */
 /* Start: Time (Current / Duration) */
+/* line 247, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time {
   color: #fff;
   display: block;
@@ -610,17 +688,21 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* End: Time (Current / Duration) */
 /* Start: Play/Pause/Stop */
+/* line 263, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__play > button {
   background-position: 0 0; }
 
+/* line 267, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__pause > button {
   background-position: -20px 0; }
 
+/* line 271, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__replay > button {
   background-position: -280px 0; }
 
 /* End: Play/Pause/Stop */
 /* Start: Progress Bar */
+/* line 278, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-rail {
   direction: ltr;
   width: 200px;
@@ -629,6 +711,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   position: relative;
   margin: 0 10px; }
 
+/* line 287, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-total,
 .mejs__time-buffering,
 .mejs__time-loaded,
@@ -644,11 +727,13 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   height: 10px;
   border-radius: 2px; }
 
+/* line 303, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-total {
   margin: 5px 0 0 0;
   background: rgba(255, 255, 255, 0.3);
   width: 100%; }
 
+/* line 309, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-buffering {
   width: 100%;
   background: linear-gradient(-45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
@@ -660,14 +745,18 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
     background-position: 0 0; }
   to {
     background-position: 30px 0; } }
+
+/* line 325, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-loaded {
   background: rgba(255, 255, 255, 0.3);
   width: 0; }
 
+/* line 330, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-current {
   background: rgba(255, 255, 255, 0.9);
   width: 0; }
 
+/* line 335, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-handle {
   display: none;
   position: absolute;
@@ -680,6 +769,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   top: -2px;
   text-align: center; }
 
+/* line 348, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-float {
   position: absolute;
   display: none;
@@ -692,6 +782,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   text-align: center;
   color: #111; }
 
+/* line 361, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-float-current {
   margin: 2px;
   width: 30px;
@@ -699,6 +790,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   text-align: center;
   left: 0; }
 
+/* line 369, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__time-float-corner {
   position: absolute;
   display: block;
@@ -711,15 +803,19 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   top: 15px;
   left: 13px; }
 
+/* line 382, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__long-video .mejs__time-float {
   width: 48px; }
 
+/* line 386, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__long-video .mejs__time-float-current {
   width: 44px; }
 
+/* line 390, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__long-video .mejs__time-float-corner {
   left: 18px; }
 
+/* line 394, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__broadcast {
   color: #fff;
   position: absolute;
@@ -729,23 +825,29 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* End: Progress Bar */
 /* Start: Fullscreen */
+/* line 405, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__fullscreen-button > button {
   background-position: -80px 0; }
 
+/* line 409, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__unfullscreen > button {
   background-position: -100px 0; }
 
 /* End: Fullscreen */
 /* Start: Mute/Volume */
+/* line 416, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__mute > button {
   background-position: -60px 0; }
 
+/* line 420, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__unmute > button {
   background-position: -40px 0; }
 
+/* line 424, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__volume-button {
   position: relative; }
 
+/* line 428, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__volume-button > .mejs__volume-slider {
   display: none;
   height: 115px;
@@ -758,9 +860,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   position: absolute;
   margin: 0; }
 
+/* line 441, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__volume-button:hover {
   border-radius: 0 0 4px 4px; }
 
+/* line 445, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__volume-total {
   position: absolute;
   left: 11px;
@@ -770,6 +874,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   background: rgba(255, 255, 255, 0.5);
   margin: 0; }
 
+/* line 455, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__volume-current {
   position: absolute;
   left: 0;
@@ -779,6 +884,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   background: rgba(255, 255, 255, 0.9);
   margin: 0; }
 
+/* line 465, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__volume-handle {
   position: absolute;
   left: 0;
@@ -790,6 +896,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   cursor: ns-resize;
   border-radius: 1px; }
 
+/* line 477, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__horizontal-volume-slider {
   height: 36px;
   width: 56px;
@@ -798,6 +905,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   float: left;
   vertical-align: middle; }
 
+/* line 486, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__horizontal-volume-total {
   position: absolute;
   left: 0;
@@ -810,6 +918,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   border-radius: 2px;
   background: rgba(50, 50, 50, 0.8); }
 
+/* line 499, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__horizontal-volume-current {
   position: absolute;
   left: 0;
@@ -822,17 +931,21 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   border-radius: 2px;
   background: rgba(255, 255, 255, 0.8); }
 
+/* line 512, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__horizontal-volume-handle {
   display: none; }
 
 /* End: Mute/Volume */
 /* Start: Track (Captions and Chapters) */
+/* line 519, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-button {
   position: relative; }
 
+/* line 523, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-button > button {
   background-position: -140px 0; }
 
+/* line 527, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-button > .mejs__captions-selector {
   visibility: hidden;
   position: absolute;
@@ -845,9 +958,11 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   overflow: hidden;
   border-radius: 0; }
 
+/* line 540, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-button > .mejs__captions-selector {
   visibility: visible; }
 
+/* line 544, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-selector-list {
   margin: 0;
   padding: 0;
@@ -855,6 +970,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   list-style-type: none !important;
   overflow: hidden; }
 
+/* line 552, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-selector-list-item {
   margin: 0 0 6px 0;
   padding: 0 10px;
@@ -864,10 +980,12 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   overflow: hidden;
   cursor: pointer; }
 
+/* line 562, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-selector-list-item:hover {
   background-color: #c8c8c8 !important;
   background-color: rgba(255, 255, 255, 0.4) !important; }
 
+/* line 567, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-selector-input {
   clear: both;
   float: left;
@@ -875,6 +993,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   position: absolute;
   left: -1000px; }
 
+/* line 575, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-selector-label {
   width: 55px;
   float: left;
@@ -883,13 +1002,16 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   font-size: 10px;
   cursor: pointer; }
 
+/* line 584, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-selected {
   color: #21f8f8; }
 
+/* line 588, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-translations {
   font-size: 10px;
   margin: 0 0 5px 0; }
 
+/* line 593, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapters {
   position: absolute;
   top: 0;
@@ -898,6 +1020,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   width: 10000px;
   z-index: 1; }
 
+/* line 602, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapter {
   position: absolute;
   float: left;
@@ -906,6 +1029,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   overflow: hidden;
   border: 0; }
 
+/* line 611, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapter-block {
   font-size: 11px;
   color: #fff;
@@ -915,13 +1039,16 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   border-bottom: solid 1px #333;
   cursor: pointer; }
 
+/* line 621, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapter-block-last {
   border-right: none; }
 
+/* line 625, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapter-block:hover {
   background: rgba(102, 102, 102, 0.7);
   background: linear-gradient(rgba(102, 102, 102, 0.7), rgba(50, 50, 50, 0.6)); }
 
+/* line 630, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapter-block .ch-title {
   font-size: 12px;
   font-weight: bold;
@@ -931,6 +1058,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   margin: 0 0 3px 0;
   line-height: 12px; }
 
+/* line 640, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__chapter-block .ch-timespan {
   font-size: 12px;
   line-height: 12px;
@@ -939,6 +1067,7 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   white-space: nowrap;
   text-overflow: ellipsis; }
 
+/* line 649, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-layer {
   position: absolute;
   bottom: 0;
@@ -948,23 +1077,28 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   font-size: 16px;
   color: #fff; }
 
+/* line 659, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-layer a {
   color: #fff;
   text-decoration: underline; }
 
+/* line 664, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-layer[lang=ar] {
   font-size: 20px;
   font-weight: normal; }
 
+/* line 669, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-position {
   position: absolute;
   width: 100%;
   bottom: 15px;
   left: 0; }
 
+/* line 676, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-position-hover {
   bottom: 35px; }
 
+/* line 680, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .mejs__captions-text, .mejs__captions-text * {
   padding: 0;
   background: rgba(20, 20, 20, 0.5);
@@ -973,16 +1107,29 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* End: Track (Captions and Chapters) */
 /* Start: Error */
+/* line 690, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .me-cannotplay a {
   color: #fff;
   font-weight: bold; }
 
+/* line 695, /Users/yarbuzova/Desktop/p1-movie-trailer/css/_mediaelementplayer.scss */
 .me-cannotplay span {
   padding: 15px;
   display: block; }
 
 /* End: Error */
+/* line 7, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
 body {
   background: red; }
+
+/* Lettering Styling */
+/* line 15, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+h1 {
+  font-family: 'Playfair Display', serif;
+  color: blue; }
+
+/* line 20, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+p {
+  font-family: 'Roboto', sans-serif; }
 
 /*# sourceMappingURL=styles.css.map */

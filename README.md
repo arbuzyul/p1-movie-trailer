@@ -2,15 +2,15 @@
 
 ## Content Priority Outline >> CONTENT STRATEGY 
 
-1. Title
+1. Title: Mulan
 2. Trailer
-3. Release Date
-4. Brief Description
-5. Actors, Directors
-6. Imagery
-7. Rating 
-8. Music
-9. Movie Rating/Reception
+3. Release Date: 1998
+4. Brief Description: Mulan is a movie about a courageous girl from China who takes the place of her father during war. It is filled with drama and humor.
+5. Actors, Directors: Lea Salonga (Mulan), Eddie Murphy (Mushu), Miguel Ferrer (Shan-Yu). Directed by Tony Bancroft and Barry Cook
+6. Imagery: Colorful, elegant, creative.
+7. Rating: G 
+8. Music: By Jerry Goldsmith
+9. Movie Rating: 7.6/10
 
 
 ## Art Direction
