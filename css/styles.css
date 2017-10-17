@@ -1118,18 +1118,32 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
   display: block; }
 
 /* End: Error */
-/* line 7, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
-body {
-  background: red; }
-
 /* Lettering Styling */
-/* line 15, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 11, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
 h1 {
   font-family: 'Playfair Display', serif;
   color: blue; }
 
-/* line 20, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+/* line 16, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
 p {
   font-family: 'Roboto', sans-serif; }
+
+/* line 20, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+body {
+  background: red; }
+
+/* Layout */
+/* line 26, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+.page {
+  display: flex; }
+
+/* line 31, /Users/yarbuzova/Desktop/p1-movie-trailer/css/styles.scss */
+header,
+section,
+main,
+article,
+aside,
+footer {
+  flex: 1; }
 
 /*# sourceMappingURL=styles.css.map */
