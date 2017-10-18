@@ -10,15 +10,17 @@
 
 h1 {
    font-family: 'Playfair Display', serif;
-    color: blue;
+    color: #6a5750;
+    width: 50%;
 }
 
 p {
     font-family: 'Roboto', sans-serif;
+    color: #f6f1ed;
 }
 
 body {
-    background: red;
+    background: #b5a397;
 }
 
 /* Layout */
@@ -35,6 +37,6 @@ article,
 aside,
 footer {
     flex: 1;
+    
 } 
 
-footer 
