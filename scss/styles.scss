@@ -1,42 +1,12 @@
 /* My Awesome Styling */
 
-@import 'normalize';
-@import 'mediaelementplayer';
+@import "normalize";
+@import "grid";
+@import "mediaelementplayer.scss";
+@import "main";
+@import "media-queries";
 
 
 /* Lettering Styling */
 
 @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto');
-
-h1 {
-   font-family: 'Playfair Display', serif;
-    color: red;
-    width: 50%;
-}
-
-p {
-    font-family: 'Roboto', sans-serif;
-    color: #f6f1ed;
-}
-
-body {
-    background: #b5a397;
-}
-
-/* Layout */
-
-.page {
-    display: flex;
-    
-}
-
-header,
-section,
-main,
-article,
-aside,
-footer {
-    flex: 1;
-    
-} 
-
