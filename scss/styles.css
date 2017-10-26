@@ -7,7 +7,7 @@
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
-@import url("https://fonts.googleapis.com/css?family=Playfair+Display|Roboto");
+@import url("https://fonts.googleapis.com/css?family=Roboto|Tangerine");
 html {
   line-height: 1.15;
   /* 1 */
@@ -994,13 +994,15 @@ Reference: http://blog.rrwd.nl/2015/04/04/the-screen-reader-text-class-why-and-h
 
 /* End: Error */
 h1 {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Tangerine', cursive;
   color: #5e0231;
-  font-size: 150%; }
+  font-size: 450%;
+  text-align: center; }
 
 p {
   font-family: 'Roboto', sans-serif;
-  color: floralwhite; }
+  color: floralwhite;
+  line-height: 160%; }
 
 body {
   background: #b5a397; }
